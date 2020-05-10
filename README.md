@@ -1,35 +1,18 @@
-## Welcome to GitHub Pages
+## Experiences
 
-Test
+### Ernest and Youngs LLP
+IT Advisory Internship
 
-### Markdown
+### Pilgrim Partners Asia
+Web Developer Internship
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### PSA Corporation Limited
+Software Quality Assurance Internship
 
-```markdown
-Syntax highlighted code block
+## Education
 
-# Header 1
-## Header 2
-### Header 3
+### BEng Information and Comunication Technology (Software Engineering)
+#### Singapore Institite of Technology, Singapore
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zeusleeck/about-me/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Diploma in Information Technology
+#### Nanyang Polytechnic, Singapore

@@ -3678,7 +3678,7 @@ header.header nav,
 }
 @media only screen and (max-width: 1024px) {
   .js .hero {
-    height: 50% !important;
+    height: 100% !important;
   }
 }
 

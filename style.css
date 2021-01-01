@@ -3684,4 +3684,16 @@ header.header nav,
   overflow:hidden;
 }
 
+body.modal-open {
+  overflow: visible;
+}
+
+.modal-body p {
+  word-wrap: break-word;
+}
+
+.modal-lg {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

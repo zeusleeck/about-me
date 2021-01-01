@@ -12,16 +12,16 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=0.65">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            type="text/css" media="all"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&amp;ver=4.9.8"
-            type="text/css" media="screen"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&amp;ver=4.9.8" type="text/css" media="screen"/>
         <link rel="stylesheet" href="js_chart/styles/an-skill-bar.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 
         <script src='js/jquery-3.0.0.min.js'></script>
         <script src='js/jquery-migrate-3.0.1.min.js'></script>
         <script src="js_chart/scripts/an-skill-bar.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     </head>
     <body class="home sticky-menu sidebar-off" id="top">
@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="col-8">
                                         <blockquote><p>I am an aspiring software engineering student who is always keen on gaining new knowledge and takes every opportunity to broaden the horizon. 
-                                            Currently, I am a final year student from the Singapore Institute of Technology doing a one year work study program with Ernst and Young LLP as part of the school’s attachment program. 
+                                            I have completed both my studies in the Singapore Institute of Technology and a one-year work-study program with Ernst and Young LLP as part of the school’s attachment program. 
                                             During the course of my studies, I have gone through multiple internships including MNCs and SMEs. I have also attained certifications like the "Professional Scrum Master I" from scrum.org.</p>
                                         </blockquote>
                                         </div>
@@ -107,11 +107,37 @@
                 <aside class="home-sticky-post post has-post-thumbnail sticky">
 
                     <span class="post-image">
-                        <a href="https://www.ey.com/en_sg">
+                        <a href= "#ey_experiences" data-toggle="modal">
                         <img width="502" height="502" src="images/EY2.jpeg"
                             class="attachment-sticky size-sticky" alt=""/>
                         </a>
                     </span>
+                    <!-- EY modal -->
+                    <div class="modal fade" id ="ey_experiences" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg" >
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                   
+                                    <div class="row">
+                                        <div class = "col-3" style="padding-right:0%;"> <img width="100" height="100" src="images/EY_Logo.jpg"class="attachment-sticky size-sticky" alt=""/></div>
+                                        <div class = "col-9" style="margin-top:6%; padding-left:0%;"><h5 class="modal-title">Ernst and Young LLP</h5></div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="modal-body text-wrap">
+                                    <p class="text-left" style="font-size:140%;">Design and develop APIs and API specifications with Swagger, .NET framework to streamline the process of a multi-million dollar project. </p>
+                                    <p class="text-left" style="font-size:140%;">Worked with more than 5 vendors to fulfill client's requirements including managing more than 200 over APIs across all vendors using API management tools</p>
+                                    <p class="text-left" style="font-size:140%;">Created AWS lambda scripts to monitor APIs health and ensure gateway security.</p>
+                                    <p class="text-left" style="font-size:140%;">Participated in the "Full Dress Rehearsal", "Cutover" and rollout of the project </p>
+                                    <p class="text-left" style="font-size:140%; margin-bottom: 5%;"><u>Leaveage Knowledge</u>: Python, .NET Framework, Swagger, TYK Dashboard, AWS Lambda </p>
+                                    <p class="text-center" style="font-size:160%;  font-weight: bold !important">Certificate of Completion </p>
+                                    <img src="certificates/Certificate of Completion - Lee Chong Kai - Consulting-1.jpg"class="attachment-sticky size-sticky" alt=""/>
+                                    <button type="button" class="btn btn-secondary btn-lg btn-block" style="color: white !important; border: none !important;" data-dismiss="modal">Close</button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="inner">
                         <h3 class="entry-title">
@@ -126,21 +152,45 @@
                         
                         <ul class="meta top">
                             <li>
-                            Jan 2020 to Present
+                            Jan 2020 to Dec 2020
                             </li>
                         </ul>
                     </div>
-
                 </aside>
+
+ 
+
 
                 <aside class="home-sticky-post post has-post-thumbnail sticky ">
 
                     <span class="post-image">
-                        <a href="https://www.pilgrimpartnersasia.com/home.php">
+                        <a href="#pilgrim_experiences" data-toggle="modal">
                         <img width="502" height="502" src="images/Pilgrim.jpg"
                             class="attachment-sticky size-sticky" alt=""/>
                         </a>
                     </span>
+
+                     <!-- Pilgrim modal -->
+                     <div class="modal fade" id ="pilgrim_experiences" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg" >
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                        <img width="300" height="150" src="images/pilgrim.png"class="attachment-sticky size-sticky" alt=""/>
+                                   
+                                </div>
+                                <div class="modal-body text-wrap">
+                                    <p class="text-left" style="font-size:140%;">Developed CRM web application using Python, PHP, HTML and JavaScript with MVC Framework to enable customers to access information on the funds they have invested.</p>
+                                    <p class="text-left" style="font-size:140%;">Assist in creating an intranet portal to provide real time stock price information using Bloomberg API to enhance staff’s calculation of funds to managed customers’ investments.</p>
+                                    <p class="text-left" style="font-size:140%; margin-bottom: 5%;"><u>Leaveage Knowledge</u>: Python, PHP, HTML and JavaScript with MVC Framework</p>
+                                    <p class="text-center" style="font-size:160%; margin-bottom:0%; font-weight: bold !important">Recommendation Letter </p>
+                                    <img src="certificates/Recommendation letter from Pilgrim-1.jpg"class="attachment-sticky size-sticky" alt=""/>
+                                    <button type="button" class="btn btn-secondary btn-lg btn-block" style="color: white !important; border: none !important;" data-dismiss="modal">Close</button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 
 
                     <div class="inner">
                         <h3 class="entry-title">
@@ -164,11 +214,33 @@
                 <aside class="home-sticky-post post has-post-thumbnail sticky">
 
                     <span class="post-image">
-                        <a href="https://www.globalpsa.com/">
+                        <a href="#psa_experiences" data-toggle="modal">
                             <img width="502" height="502" src="images/PSA.jpg"
                             class="attachment-sticky size-sticky" alt=""/>
                         </a>
                     </span>
+
+                       <!-- PSA modal -->
+                       <div class="modal fade" id ="psa_experiences" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg" >
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                        <img width="200" height="100" src="images/psa_logo.png"class="attachment-sticky size-sticky" alt=""/>
+                                   
+                                </div>
+                                    <div class="modal-body text-wrap">
+                                    <p class="text-left" style="font-size:140%;">Developed test cases and perform software testing on PORTNET EDI®, documented the results and identified errors during the testing to ensure smooth deployment of the system.</p>
+                                    <p class="text-left" style="font-size:140%;">Created training resources on the usage of PORTNET® to assist in the training of company’s staff so that they are able to use the system to perform their job.</p>
+                                    <p class="text-left" style="font-size:140%;">Created scripts to automate the software testing process.</p>
+                                    <p class="text-left" style="font-size:140%; margin-bottom: 5%;"><u>Leaveage Knowledge</u>: Software Testing, Design Test cases, Java</p>
+                                    <!--<p class="text-center" style="font-size:160%; margin-bottom:0%; font-weight: bold !important">Recommendation Letter </p>
+                                    <img src="certificates/Recommendation letter from Pilgrim-1.jpg"class="attachment-sticky size-sticky" alt=""/>-->
+                                    <button type="button" class="btn btn-secondary btn-lg btn-block" style="color: white !important; border: none !important;" data-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                     </div>
 
                     <div class="inner">
                         <h3 class="entry-title">
@@ -190,6 +262,8 @@
                 </aside>
             </div>
         </div>
+
+      
 
         <div class="wrap full-wrap" id="my_skillsets" style="padding-bottom: 0% !important; ">
             <div class="main-wrap">
@@ -272,17 +346,25 @@
                                         My Education
                                 </h2>
                                 <div class="post-content">
-                                    <blockquote>
-                                        <p>Singapore Institute of Technology
+                                    <blockquote style="margin-bottom: 5%;">
+                                        <div class="row">
+                                            <div class = "col-1" style=" padding-right:0%;"> <img width="100" height="100" src="images/SIT_logo.png"class="attachment-sticky size-sticky" alt=""/></div>
+                                            <div class = "col-9" style=" padding-top: 1%; padding-left:1%;"><p>Singapore Institute of Technology</p></div>
+                                        </div>
+                                        
                                         <cite>Bachelor of Engineering - BE, Information and Communication Technology (Software Engineering)</cite>
-                                        <cite>Sep 2017 to Sep 2020</cite>
-                                        </p>
+                                        <cite>Sep 2017 to Jan 2021</cite>
+                                        
                                     </blockquote>
                                     <blockquote>
-                                        <p>Nanyang Polytechnic 
+                                        <div class="row">
+                                            <div class = "col-1" style="padding-right:0%;"> <img width="100" height="100" src="images/nyp-logo.png"class="attachment-sticky size-sticky" alt=""/></div>
+                                            <div class = "col-9" style="padding-left:1%;"><p>Nanyang Polytechnic </p></div>
+                                        </div>
+                                        
                                         <cite>Diploma in Information Technology</cite>
                                         <cite>Apr 2012 to Apr 2015</cite>
-                                        </p>
+                                        
                                     </blockquote>
                                 </div>
                                     <a href="resume/Lee Chong Kai_Resume.pdf" class="more-link">PDF Resume</a></p>

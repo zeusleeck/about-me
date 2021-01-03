@@ -3687,6 +3687,17 @@ header.header nav,
   #nyp{
     padding-top:1% !important;
   }
+  p{
+    font-size: 70% !important;
+  }
+  cite{
+    font-size: 70% !important;
+  }
+  .btn-block{
+    padding: 3%;
+    font-size: 70%;
+    
+  }
 }
 @media only screen and (max-width: 1024px) {
   .js .hero {
